@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-image:url(circles-dark.png)
+}
+
+.headstyling {
+    font-size: 7em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.logosize {
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.contactformhead{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin: 5%;
+}
+
+.formtext {
+    font-family: 'Poppins', sans-serif;
+}
+
+.formtextnormal {
+    font-family: 'Poppins', sans-serif;
+}
+
+.styletextarea {
+    height:200px
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #2f2f2f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #531414;
+}
+
+.head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 7em;
+}
+
+
+@media only screen and (min-width: 1024px) {  
+    .logoimage {flex-direction: row;}
+}
+img {
+    height: 100%; 
+    width: 100%;
+}
+.logosize{
+    justify-content: center;
+}
