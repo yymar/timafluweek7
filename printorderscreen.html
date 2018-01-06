@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="magazijnmedewerker.css">
+    <title>Magazijnmedewerker</title>
+</head>
+
+
+<body>
+    <nav class="navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="home.html">Home</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="Verkoopmedewerker.html">Verkoopmedewerker</a>
+                </li>
+                <li>
+                    <a href="magazijnmedewerker.html">Magazijnmedewerker</a>
+                </li>
+                <li>
+                    <a href="inkoopmedewerker.html">Inkoopmedewerker</a>
+                </li>
+                <li>
+                    <a href="factureringsmedewerker.html">Factureringsmedewerker</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <div class="textcontainer">
+            <h1 class="head">Pack & Print!</p>
+        </div>
+
+        <div class="form">
+            <form action="/action_page.php">
+                <label for="Packaging type" class="formtext">Packaging type</label>
+                <select name="packaging">
+                    <option value="T01">T01</option>
+                    <option value="T02">T02</option>
+                    <option value="T03">T03</option>
+                    <option value="P16">P16</option>
+                    <option value="P01">P01</option>
+                </select>
+
+                <label for="weight" class="formtext">Weight</label>
+                <input type="text" id="lname" name="lastname" placeholder="Weight in Kg:" class="formtextnormal">
+
+
+
+                <label for="subject" class="formtext">Comment on Packinglist</label>
+                <textarea id="subject" name="subject" placeholder="E.g reason for missing item ..." class="styletextarea formtextnormal"></textarea>
+                <input type="checkbox" name="vehicle" value="Car">Ready for printing <br><br><br>
+                <input type="submit" value="Print Packinglist">
+            </form>
+        </div>
+
+
+    </div>
+</body>
+
+
+
+
+</html>
