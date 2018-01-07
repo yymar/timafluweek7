@@ -16,13 +16,17 @@
 
 .box2 {
     display: flex;
-    border: 3px solid red;
+    border: 3px solid d;
 }
 
 .img{
     width: 800px;
 }
+.img2{
+    width: 500px;
+    margin: auto;
 
+}
 .box2 div{
     border: 3px bla solid;
     padding: 40px 0 0 0;
