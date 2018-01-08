@@ -1,0 +1,91 @@
+body {
+  margin: 50px;
+}
+
+ul {
+  width: 518px;
+  border: 1px solid #cccccc;
+  border-top-color: #5499c6;
+  border-bottom: 0;
+  margin-bottom: 18px;
+}
+
+li {
+  border-bottom: 1px solid #cccccc;
+  padding: 9px;
+  font-size: 14px;
+  display: block;
+}
+
+img {
+  vertical-align: middle;
+  cursor: pointer;
+  opacity: 0.8;
+  margin: 0 9px 0 0;
+}
+
+input {
+  margin: 0;
+  height: 28px;
+}
+
+input[type=text] {
+  border: 1px solid #9f9f9f;
+  border-radius: 0;
+  color: #757575;
+  font-size: 14px;
+  padding-left: 6px;
+}
+
+input[type=text] {
+  padding: 0px;
+  border-width: 0 1px;
+  text-align: center !important;
+  margin: 0 9px 0 0;
+}
+
+.additionalinfo-icon {
+  background: url('https://start.exactonline.nl/content/styles/ExactFuel/images/info-inactive.svg') no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.pricelist-icon-inactive {
+   background: url('https://start.exactonline.nl/content/styles/ExactFuel/images/pricelist-inactive.svg') no-repeat;
+}
+
+
+/********************************************
+***************MODIFIED/ ADDED***************
+********************************************/
+.Wizard.ResponsiveFlat .shopping-cart .item-description li {
+  border-bottom: 1px solid #cccccc;
+  padding: 9px;
+  font-size: 14px;
+  display: block;//ADDED
+}
+
+.items-wrapper {
+  width: 100% //This is needed to override the 75% width
+}
+
+.spin-control-items {
+  display: table-cell;
+  padding-right: 8px;
+  white-space: nowrap;
+}
+
+.item-name {
+  display: table-cell;
+  width: 100%;   
+  padding: 0 8px;
+}
+
+.item-count {
+  display: table-cell;
+  white-space: nowrap;
+}
