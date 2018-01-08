@@ -1,5 +1,7 @@
-body {
-  margin: 50px;
+.containt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ul {
